@@ -1,0 +1,6 @@
+pandas
+numpy
+spacy
+scikit-learn
+tqdm
+pyarrow

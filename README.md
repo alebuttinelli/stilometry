@@ -53,7 +53,7 @@ pip install -r requirements.txt
 python -m spacy download it_core_news_lg
 ```
 
-##Esecuzione
+## Esecuzione
 Esegui lo script stylometry_analyzer.py dal tuo terminale, specificando i file di input/output e i moduli di analisi che desideri attivare.
 ```bash
 python stylometry_analyzer.py \
@@ -67,5 +67,5 @@ python stylometry_analyzer.py \
     --normalize_features
 ```
 
-##Output
+## Output
 Lo script produrrà un singolo file (es. analisi_completa.csv) che contiene tutte le colonne del tuo file di input originale più tutte le nuove colonne di feature calcolate dai moduli che hai attivato.
